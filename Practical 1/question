@@ -1,0 +1,4 @@
+in a registration form user has to submit their details so peform the following operations wrt submitting of details
+-> user has to submit details like name,birthdate,sem and also display them
+-> print current user details of submitted time 
+-> calculate the user date on the basis of their birth year
