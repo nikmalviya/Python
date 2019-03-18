@@ -33,9 +33,11 @@ def display_medicines():
         print('Price : ', price)
         print('Expiry Data :', expiry)
         print('Company: ', company)
+
+
 def display_top_three():
     print('Top Three Medicines : ')
-    top_three = sorted(medicines.items(),key=lambda x:x[1][4], reverse=True)[:3]
+    top_three = sorted(medicines.items(),   key=lambda x:x[1][4], reverse=True)[:3]
     for name,data in top_three:
         price, qty, expiry, company, count = data
         print('Name : ', name)
@@ -43,6 +45,7 @@ def display_top_three():
         print('Price : ', price)
         print('Expiry Data :', expiry)
         print('Company: ', company)
+
 
 if __name__ == '__main__':
     add()
