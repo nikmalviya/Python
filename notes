@@ -1,0 +1,11 @@
+polymorphism means that an object of sub class can be passed to parameter of super class file a method may be implemented in several in several classes along the inheritance chain python decides which method is invoked at runtime this is known as dynamic binding
+
+four special methods corressponding to object class
+1 -> __new__()
+this method is automatically invoked when a object is constructed this method then invokes init method to initialize the object generally one should only override the init method to initialize the data fields defines in class 
+2 -> __init__()
+3 -> __str__()
+the string method return the string description of the object 
+by default it returns a string consisting of class name of which the object is instance and the objects memory in hexa decimal format
+4 -> __eq__()
+this method returns true if two objects are pointing to the same reference
